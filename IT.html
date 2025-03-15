@@ -1,750 +1,849 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>IT Cyber Security</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>IT Cyber Security</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon" /> -->
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon" /> -->
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect" />
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet" />
-</head>
+  <body class="service-details-page light-background">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Plyomed</h1>
+        </a>
 
-<body class="service-details-page light-background">
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Plyomed</h1>
-      </a>
+        <nav id="navmenu" class="navmenu">
+          <ul class="d-none">
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Dropdown</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Dropdown</span>
+                    <i class="bi bi-chevron-down toggle-dropdown"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-      <nav id="navmenu" class="navmenu">
-        <ul class="d-none">
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown">
-            <a href="#"><span>Dropdown</span>
-              <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown">
-                <a href="#"><span>Deep Dropdown</span>
-                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+        <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
+      </div>
+    </header>
 
-      <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
-    </div>
-  </header>
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title bg-white" data-aos="fade">
+        <div class="heading">
+          <div class="container-fluid">
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-lg-8 content">
+                <h1>IT Cyber Security</h1>
+                <p>
+                  PLYOMED is a dynamic and innovative provider of IT
+                  Infrastructure Management, IT Infrastructure Automation
+                  Services, IT security automation, import / export trading
+                  services. We aim to provide holistic solutions to our clients,
+                  addressing their technological, business and personal
+                  development needs. Our focus on excellence, innovation, and
+                  customer satisfaction sets us apart in the market, positioning
+                  us as a comprehensive partner for businesses and individuals
+                  alike.
+                </p>
 
-  <main class="main">
-    <!-- Page Title -->
-    <div class="page-title bg-white" data-aos="fade">
-      <div class="heading">
-        <div class="container-fluid">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8 content">
-              <h1>IT Cyber Security</h1>
-              <p>
-                PLYOMED is a dynamic and innovative provider of IT
-                Infrastructure Management, IT Infrastructure Automation
-                Services, IT security automation, import / export trading
-                services. We aim to provide holistic solutions to our clients,
-                addressing their technological, business and personal
-                development needs. Our focus on excellence, innovation, and
-                customer satisfaction sets us apart in the market, positioning
-                us as a comprehensive partner for businesses and individuals
-                alike.
-              </p>
-
-              <a href="index.html" class="button"><span>Home</span> ></a>
+                <a href="index.html" class="button"><span>Home</span> ></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End Page Title -->
+      <!-- End Page Title -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-2 d-flex flex-column align-items-center">
-            <i class="bi bi-eye"></i>
-            <div class="stats-item">
-              <!-- <span
+      <!-- Stats Section -->
+      <section id="stats" class="stats section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-2 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-eye"></i>
+              <div class="stats-item">
+                <!-- <span
                   data-purecounter-start="0"
                   data-purecounter-end="521"
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span> -->
-              <p class="sitename">Vision</p>
-              <p>Faster IT operations to reduce Time To Market</p>
+                <p class="sitename">Vision</p>
+                <p>Faster IT operations to reduce Time To Market</p>
+              </div>
             </div>
-          </div>
-          <!-- End Stats Item -->
+            <!-- End Stats Item -->
 
-          <div class="col-lg-4 col-md-2 d-flex flex-column align-items-center">
-            <i class="bi bi-flag"></i>
-            <div class="stats-item">
-              <!-- <span
+            <div
+              class="col-lg-4 col-md-2 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-flag"></i>
+              <div class="stats-item">
+                <!-- <span
                   data-purecounter-start="0"
                   data-purecounter-end="1463"
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span> -->
-              <p class="sitename">Mission</p>
-              <p>Operate everything in the IT Operations space</p>
+                <p class="sitename">Mission</p>
+                <p>Operate everything in the IT Operations space</p>
+              </div>
             </div>
-          </div>
-          <!-- End Stats Item -->
+            <!-- End Stats Item -->
 
-          <div class="col-lg-4 col-md-2 d-flex flex-column align-items-center">
-            <i class="bi bi-bullseye"></i>
-            <div class="stats-item">
-              <!-- <span
+            <div
+              class="col-lg-4 col-md-2 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-bullseye"></i>
+              <div class="stats-item">
+                <!-- <span
                   data-purecounter-start="0"
                   data-purecounter-end="15"
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span> -->
-              <p class="sitename">Goal</p>
-              <p>Ensure faster delivery of Quality Products</p>
-              <span></span>
+                <p class="sitename">Goal</p>
+                <p>Ensure faster delivery of Quality Products</p>
+                <span></span>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Stats Section -->
+
+      <!-- MULTI DISCIPLINARY OFFERINGS  -->
+      <section id="pricing" class="pricing section bg-white">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Know More about</h2>
+          <div>
+            <span>MULTI DISCIPLINARY OFFERINGS </span>
+            <span class="description-title"></span>
+          </div>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pricing-item featured">
+                <h3>Phase 1: Analysis and Strategy Development</h3>
+                <!-- <h4><sup>$</sup>0<span> / month</span></h4> -->
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Analysis of Current Infrastructure: Conduct a thorough
+                      analysis of the client's existing IT infrastructure and
+                      security setup to identify strengths, weaknesses, and
+                      areas for improvement.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Develop Modernization Strategies: Based on the analysis,
+                      develop strategies to modernize the client's IT
+                      infrastructure and security practices, focusing on
+                      efficiency, scalability, and security.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Architect Solutions: Design and architect IT
+                      infrastructure and security solutions that align with the
+                      client's business goals and industry best practices.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Provide Expert Advice: Provide expert advice to the
+                      client on implementing modernization strategies and
+                      solutions, taking into account their specific requirements
+                      and constraints.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pricing-item featured">
+                <h3>Phase 2: Alignment and Migration xyzs</h3>
+
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Alignment of IT Infrastructure: Align the client's IT
+                      infrastructure with modernization strategies, ensuring
+                      that all components work together seamlessly.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Migration of Workloads: Migrate workloads to the new
+                      infrastructure, ensuring minimal disruption to operations
+                      & data integrity.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Implement Automation Solutions: Implement automation
+                      solutions to streamline IT operations, improve efficiency,
+                      and reduce manual effort.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >End-to-End Implementation: Ensure that automation
+                      solutions are implemented end-to-end, covering all aspects
+                      of IT operations, including monitoring, provisioning, and
+                      security.</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pricing-item featured">
+                <h3>Phase 3: Optimization & Maintenance</h3>
+
+                <ul>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Optimize Automation Solutions: Continuously optimize
+                      automation solutions to improve performance, reduce costs,
+                      and enhance security.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Maintain Implemented Solutions: Provide ongoing
+                      maintenance & support for implemented automation
+                      solutions, ensuring they remain effective,
+                      up-to-date.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Animate Optimization: Dynamically optimize the automation
+                      solutions based on changing business needs, technology
+                      trends, and security threats.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-check"></i>
+                    <span
+                      >Monitor and Report: Monitor the performance of automation
+                      solutions and provide regular reports to the client on key
+                      metrics, such as efficiency gains, cost savings, and
+                      security improvements</span
+                    >
+                  </li>
+                </ul>
+                <!-- <a href="#" class="buy-btn">Buy Now</a> -->
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Pricing Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About</h2>
+          <div>
+            <span>Learn More</span>
+            <span class="description-title">About Us</span>
+          </div>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-12 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p>
+                <span class="hl">PLYOMED</span> is dedicated to delivering
+                high-quality services in IT infrastructure management, IT
+                security automation, import/export trading. Our team comprises
+                experts in their respective fields, ensuring that we provide
+                cutting-edge solutions tailored to meet the unique needs of each
+                client. Our holistic approach to business and personal
+                development sets us apart from traditional service providers,
+                making us a preferred choice for clients seeking comprehensive
+                solutions.
+              </p>
+
+              <ul>
+                <li class="mb-2">
+                  <i class="bi bi-check2-circle"></i>
+                  <span
+                    >IT Infrastructure Management: We offer comprehensive IT
+                    infrastructure management services, including network
+                    monitoring, server management, cloud services, and IT
+                    support. Our goal is to ensure that our clients' IT systems
+                    are efficient, secure, and reliable</span
+                  >
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-check2-circle"></i>
+                  <span
+                    >IT Security Automation: We provide advanced IT security
+                    automation solutions to protect our clients' data and
+                    systems from cyber threats. Our services include security
+                    assessment, vulnerability management, threat detection, and
+                    incident response</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check2-circle"></i>
+                  <span
+                    >Import / Export Trading: We facilitate international trade
+                    by sourcing high-quality goods from around the world &
+                    specialize in connecting buyers and sellers to create
+                    mutually beneficial trade partnerships.</span
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+              <p>
+                At Plyomed, we strive to build trust and foster collaboration,
+                ensuring that healthcare providers have access to the
+                medications they need, when they need them.
+              </p>
             </div>
           </div>
-          <!-- End Stats Item -->
         </div>
-      </div>
-    </section>
-    <!-- /Stats Section -->
+      </section>
+      <!-- /About Section -->
 
-    <!-- MULTI DISCIPLINARY OFFERINGS  -->
-    <section id="pricing" class="pricing section bg-white">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Know More about</h2>
-        <div>
-          <span>MULTI DISCIPLINARY OFFERINGS </span>
-          <span class="description-title"></span>
+      <section id="service-details" class="service-details section bg-white">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-6 col-md-12">
+              <div class="" data-aos="fade-up" data-aos-delay="200">
+                <h4>IT Skillsets</h4>
+
+                <table class="table table-bordered border-secondary">
+                  <tr>
+                    <th class="table-active">Infrastructure as a Service</th>
+                    <td>AWS, Azure and GCE</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Operating Systems</th>
+                    <td>
+                      Linux (RHEL, CentOS, CoreOS, Ubuntu, Debian, Unix,
+                      Solaris, AIX, HP/UX), Windows
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Virtualization Platforms</th>
+                    <td>
+                      VMware vSphere, KVM, Citrix Xen, Hyper-V, Virtual Box,
+                      Vagrant
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Containerization</th>
+                    <td>LXC, Solaris Containers, Docker, CoreOS Rkt</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Container Orchestration</th>
+                    <td>Kubernetes, Docker Swarm, OpenShift</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Artifact Management</th>
+                    <td>Artifactory, Nexus</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Configuration Management</th>
+                    <td>Puppet, Chef, Ansible</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Build Systems</th>
+                    <td>Maven, Ant, Gradle, MSBuild</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">CI</th>
+                    <td>Jenkins, Bamboo, GitLab, TFS, VSTS</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Test Automation</th>
+                    <td>Selenium</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Versioning</th>
+                    <td>Git, SVN, Mercurial, Perforce</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Source Code Repo</th>
+                    <td>GitHub, GitLab, SVN, TFS, VSTS, Bitbucket</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Database RA</th>
+                    <td>
+                      Redgate, DB Maestro, Liquibase, Oracle Change Manager
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">
+                      Requirement and Project Management & Planning
+                    </th>
+                    <td>JIRA, Gitlab</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Application Servers</th>
+                    <td>JBoss, Tomcat, WebSphere, WebLogic, IIS</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Web Servers</th>
+                    <td>Nginx, Apache</td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Databases</th>
+                    <td>MySQL, PostgreSQL, MongoDB, Oracle, MS SQL</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">
+                      Monitoring, Alerting, and Trending
+                    </th>
+                    <td>
+                      New Relic, AppDynamics, Dynatrace, Nagios & Graphite
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Logging</th>
+                    <td>Logstash (ELK), Splunk</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Infra Automation</th>
+                    <td>Terraform, AWS Cloudformation</td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Security</th>
+                    <td>
+                      Tripwire, Snort, Twistlock, Checkmarx, Elastic Xpack (at
+                      logs)
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">Security Compliance</th>
+                    <td>Ansible, Puppet, Salt, Chef</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+              <div class="" data-aos="fade-up" data-aos-delay="200">
+                <h4>IT Consulting & Offerings</h4>
+
+                <table class="table table-bordered border-secondary">
+                  <tr>
+                    <th class="table-active">DevOps</th>
+                    <td>
+                      We automate & integrate the processes between software
+                      development and IT teams, so they can build, test, and
+                      release software faster and more reliably
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">DevSecOps</th>
+                    <td>
+                      Our DevSecOps approach helps enterprises address security
+                      threats more effectively. It is important to view security
+                      teams as a valuable asset
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Cloud</th>
+                    <td>
+                      Our Cloud model enables business to communicate & share
+                      more easily than traditional methods and scale up or down
+                      based on demand.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Infrastructure</th>
+                    <td>
+                      Our Infra management enables superior business outcomes.
+                      Our accelerating processes enable a faster &
+                      cost-effective way of allocating IT infrastructure using
+                      IaC
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">AutomatedOPS</th>
+                    <td>
+                      Our AutomatedOPS offerings, makes complex automated
+                      decisions by collecting and analyzing data. By leveraging
+                      this data, we can predict future events that may affect
+                      availability
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Microservices</th>
+                    <td>
+                      Our microservice architecture enables rapid, frequent &
+                      reliable delivery of large, complex applications. It also
+                      enables an organizations evolve their technology stack
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">Security</th>
+                    <td>
+                      In this modern, fast-paced world, cyber security is most
+                      important as it protects all categories of data from theft
+                      and damage. Industries need to Prioritize Cyber
+                      Resilience. We offer state of the art compliance (CIS) &
+                      cyber security solutions
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">SAP Services</th>
+                    <td>
+                      We provide comprehensive SAP solutions, from
+                      implementation and migration to customization and support,
+                      helping businesses streamline operations, enhance
+                      efficiency, and drive digital transformation.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">
+                      Robotic Process Automation (RPA)
+                    </th>
+                    <td>
+                      We leverage leading RPA platforms to automate repetitive
+                      tasks, reduce operational costs, and improve efficiency,
+                      enabling businesses to focus on high-value activities and
+                      innovation.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th class="table-active">MS Dynamics 365</th>
+                    <td>
+                      Our MS Dynamics 365 services enable seamless ERP and CRM
+                      integration, optimizing business processes, improving
+                      customer engagement, and enhancing decision-making with
+                      real-time data insights.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">MDM / PIM Solutions</th>
+                    <td>
+                      Our Master Data Management (MDM) and Product Information
+                      Management (PIM) services ensure data consistency,
+                      accuracy, and governance, providing a unified view of
+                      critical business information.
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="table-active">
+                      Data Governance (Informatica, IICS)
+                    </th>
+                    <td>
+                      We help organizations implement robust Data Governance
+                      frameworks using Informatica and IICS, ensuring data
+                      quality, compliance, security, and streamlined data
+                      management for better business outcomes.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <!-- End Section Title -->
+      </section>
+      <!-- /Service Details Section -->
 
-      <div class="container">
+      <!-- Service Details Section -->
+      <section id="service-details" class="service-details section bg-white">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+              <div
+                class="help-box d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-headset help-icon"></i>
+                <h4>Have a Question?</h4>
+                <p class="d-flex align-items-center mt-2 mb-0">
+                  <i class="bi bi-telephone me-2"></i>
+                  <span>+1 5589 55488 55</span>
+                </p>
+                <p class="d-flex align-items-center mt-1 mb-0">
+                  <i class="bi bi-envelope me-2"></i>
+                  <a href="mailto:contact@example.com">contact@example.com</a>
+                </p>
+                <a href="index.html#contact">Send Message</a>
+              </div>
+              <div class="service-box d-none">
+                <h4>Serices List</h4>
+                <div class="services-list">
+                  <a href="#" class="active"
+                    ><i class="bi bi-arrow-right-circle"></i
+                    ><span>Web Design</span></a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-arrow-right-circle"></i
+                    ><span>Web Design</span></a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-arrow-right-circle"></i
+                    ><span>Product Management</span></a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-arrow-right-circle"></i
+                    ><span>Graphic Design</span></a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-arrow-right-circle"></i
+                    ><span>Marketing</span></a
+                  >
+                </div>
+              </div>
+              <!-- End Services List -->
+
+              <div class="service-box d-none">
+                <h4>Download Catalog</h4>
+                <div class="download-catalog">
+                  <a href="#"
+                    ><i class="bi bi-filetype-pdf"></i
+                    ><span>Catalog PDF</span></a
+                  >
+                  <a href="#"
+                    ><i class="bi bi-file-earmark-word"></i
+                    ><span>Catalog DOC</span></a
+                  >
+                </div>
+              </div>
+              <!-- End Services List -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer dark-background d-none">
+      <div class="container footer-top">
         <div class="row gy-4">
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="pricing-item featured">
-              <h3>Phase 1: Analysis and Strategy Development</h3>
-              <!-- <h4><sup>$</sup>0<span> / month</span></h4> -->
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Analysis of Current Infrastructure: Conduct a thorough
-                    analysis of the client's existing IT infrastructure and
-                    security setup to identify strengths, weaknesses, and
-                    areas for improvement.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Develop Modernization Strategies: Based on the analysis,
-                    develop strategies to modernize the client's IT
-                    infrastructure and security practices, focusing on
-                    efficiency, scalability, and security.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Architect Solutions: Design and architect IT
-                    infrastructure and security solutions that align with the
-                    client's business goals and industry best practices.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Provide Expert Advice: Provide expert advice to the
-                    client on implementing modernization strategies and
-                    solutions, taking into account their specific requirements
-                    and constraints.</span>
-                </li>
-              </ul>
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Multi</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
-          <!-- End Pricing Item -->
 
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="pricing-item featured">
-              <h3>Phase 2: Alignment and Migration xyzs</h3>
-
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Alignment of IT Infrastructure: Align the client's IT
-                    infrastructure with modernization strategies, ensuring
-                    that all components work together seamlessly.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Migration of Workloads: Migrate workloads to the new
-                    infrastructure, ensuring minimal disruption to operations
-                    & data integrity.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Implement Automation Solutions: Implement automation
-                    solutions to streamline IT operations, improve efficiency,
-                    and reduce manual effort.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>End-to-End Implementation: Ensure that automation
-                    solutions are implemented end-to-end, covering all aspects
-                    of IT operations, including monitoring, provisioning, and
-                    security.</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Pricing Item -->
-
-          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="pricing-item featured">
-              <h3>Phase 3: Optimization & Maintenance</h3>
-
-              <ul>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Optimize Automation Solutions: Continuously optimize
-                    automation solutions to improve performance, reduce costs,
-                    and enhance security.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Maintain Implemented Solutions: Provide ongoing
-                    maintenance & support for implemented automation
-                    solutions, ensuring they remain effective,
-                    up-to-date.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Animate Optimization: Dynamically optimize the automation
-                    solutions based on changing business needs, technology
-                    trends, and security threats.</span>
-                </li>
-                <li>
-                  <i class="bi bi-check"></i>
-                  <span>Monitor and Report: Monitor the performance of automation
-                    solutions and provide regular reports to the client on key
-                    metrics, such as efficiency gains, cost savings, and
-                    security improvements</span>
-                </li>
-              </ul>
-              <!-- <a href="#" class="buy-btn">Buy Now</a> -->
-            </div>
-          </div>
-          <!-- End Pricing Item -->
-        </div>
-      </div>
-    </section>
-    <!-- /Pricing Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <div>
-          <span>Learn More</span>
-          <span class="description-title">About Us</span>
-        </div>
-      </div>
-      <!-- End Section Title -->
-
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-12 content" data-aos="fade-up" data-aos-delay="100">
-            <p>
-              <span class="hl">PLYOMED</span> is dedicated to delivering
-              high-quality services in IT infrastructure management, IT
-              security automation, import/export trading. Our team comprises
-              experts in their respective fields, ensuring that we provide
-              cutting-edge solutions tailored to meet the unique needs of each
-              client. Our holistic approach to business and personal
-              development sets us apart from traditional service providers,
-              making us a preferred choice for clients seeking comprehensive
-              solutions.
-            </p>
-
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
             <ul>
-              <li class="mb-2">
-                <i class="bi bi-check2-circle"></i>
-                <span>IT Infrastructure Management: We offer comprehensive IT
-                  infrastructure management services, including network
-                  monitoring, server management, cloud services, and IT
-                  support. Our goal is to ensure that our clients' IT systems
-                  are efficient, secure, and reliable</span>
-              </li>
-              <li class="mb-2">
-                <i class="bi bi-check2-circle"></i>
-                <span>IT Security Automation: We provide advanced IT security
-                  automation solutions to protect our clients' data and
-                  systems from cyber threats. Our services include security
-                  assessment, vulnerability management, threat detection, and
-                  incident response</span>
-              </li>
-              <li>
-                <i class="bi bi-check2-circle"></i>
-                <span>Import / Export Trading: We facilitate international trade
-                  by sourcing high-quality goods from around the world &
-                  specialize in connecting buyers and sellers to create
-                  mutually beneficial trade partnerships.</span>
-              </li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
             <p>
-              At Plyomed, we strive to build trust and foster collaboration,
-              ensuring that healthcare providers have access to the
-              medications they need, when they need them.
+              Subscribe to our newsletter and receive the latest news about our
+              products and services!
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /About Section -->
-
-    <section id="service-details" class="service-details section bg-white">
-      <div class="container">
-        <div class="row gy-5">
-          <div class="col-lg-6 col-md-12">
-            <div class="" data-aos="fade-up" data-aos-delay="200">
-              <h4>IT Skillsets</h4>
-
-              <table class="table table-bordered border-secondary">
-                <tr>
-                  <th class="table-active">Infrastructure as a Service</th>
-                  <td>AWS, Azure and GCE</td>
-                </tr>
-                <tr>
-                  <th class="table-active">Operating Systems</th>
-                  <td>
-                    Linux (RHEL, CentOS, CoreOS, Ubuntu, Debian, Unix,
-                    Solaris, AIX, HP/UX), Windows
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Virtualization Platforms</th>
-                  <td>
-                    VMware vSphere, KVM, Citrix Xen, Hyper-V, Virtual Box,
-                    Vagrant
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Containerization</th>
-                  <td>LXC, Solaris Containers, Docker, CoreOS Rkt</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Container Orchestration</th>
-                  <td>Kubernetes, Docker Swarm, OpenShift</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Artifact Management</th>
-                  <td>Artifactory, Nexus</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Configuration Management</th>
-                  <td>Puppet, Chef, Ansible</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Build Systems</th>
-                  <td>Maven, Ant, Gradle, MSBuild</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">CI</th>
-                  <td>Jenkins, Bamboo, GitLab, TFS, VSTS</td>
-                </tr>
-                <tr>
-                  <th class="table-active">Test Automation</th>
-                  <td>Selenium</td>
-                </tr>
-                <tr>
-                  <th class="table-active">Versioning</th>
-                  <td>Git, SVN, Mercurial, Perforce</td>
-                </tr>
-                <tr>
-                  <th class="table-active">Source Code Repo</th>
-                  <td>GitHub, GitLab, SVN, TFS, VSTS, Bitbucket</td>
-                </tr>
-                <tr>
-                  <th class="table-active">Database RA</th>
-                  <td>
-                    Redgate, DB Maestro, Liquibase, Oracle Change Manager
-                  </td>
-                </tr>
-                <tr>
-                  <th class="table-active">
-                    Requirement and Project Management & Planning
-                  </th>
-                  <td>JIRA, Gitlab</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Application Servers</th>
-                  <td>JBoss, Tomcat, WebSphere, WebLogic, IIS</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Web Servers</th>
-                  <td>Nginx, Apache</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Databases</th>
-                  <td>MySQL, PostgreSQL, MongoDB, Oracle, MS SQL</td>
-                </tr>
-                <tr>
-                  <th class="table-active">
-                    Monitoring, Alerting, and Trending
-                  </th>
-                  <td>
-                    New Relic, AppDynamics, Dynatrace, Nagios & Graphite
-                  </td>
-                </tr>
-                <tr>
-                  <th class="table-active">Logging</th>
-                  <td>Logstash (ELK), Splunk</td>
-                </tr>
-                <tr>
-                  <th class="table-active">Infra Automation</th>
-                  <td>Terraform, AWS Cloudformation</td>
-                </tr>
-                <tr>
-                  <th class="table-active">Security</th>
-                  <td>
-                    Tripwire, Snort, Twistlock, Checkmarx, Elastic Xpack (at
-                    logs)
-                  </td>
-                </tr>
-                <tr>
-                  <th class="table-active">Security Compliance</th>
-                  <td>Ansible, Puppet, Salt, Chef</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-12">
-            <div class="" data-aos="fade-up" data-aos-delay="200">
-              <h4>IT Consulting & Offerings</h4>
-
-              <table class="table table-bordered border-secondary">
-                <tr>
-                  <th class="table-active">DevOps</th>
-                  <td>
-                    We automate & integrate the processes between software
-                    development and IT teams, so they can build, test, and
-                    release software faster and more reliably
-                  </td>
-                </tr>
-                <tr>
-                  <th class="table-active">DevSecOps</th>
-                  <td>
-                    Our DevSecOps approach helps enterprises address security
-                    threats more effectively. It is important to view security
-                    teams as a valuable asset
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Cloud</th>
-                  <td>
-                    Our Cloud model enables business to communicate & share
-                    more easily than traditional methods and scale up or down
-                    based on demand.
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Infrastructure</th>
-                  <td>
-                    Our Infra management enables superior business outcomes.
-                    Our accelerating processes enable a faster &
-                    cost-effective way of allocating IT infrastructure using
-                    IaC
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">AutomatedOPS</th>
-                  <td>
-                    Our AutomatedOPS offerings, makes complex automated
-                    decisions by collecting and analyzing data. By leveraging
-                    this data, we can predict future events that may affect
-                    availability
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Microservices</th>
-                  <td>
-                    Our microservice architecture enables rapid, frequent &
-                    reliable delivery of large, complex applications. It also
-                    enables an organizations evolve their technology stack
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">Security</th>
-                  <td>
-                    In this modern, fast-paced world, cyber security is most
-                    important as it protects all categories of data from theft
-                    and damage. Industries need to Prioritize Cyber
-                    Resilience. We offer state of the art compliance (CIS) &
-                    cyber security solutions
-                  </td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">
-                    SAP Services
-                  </th>
-                  <td>We provide comprehensive SAP solutions, from implementation and migration to customization and
-                    support, helping
-                    businesses streamline operations, enhance efficiency, and drive digital transformation.</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">
-                    Robotic Process Automation (RPA)
-                  </th>
-                  <td>We leverage leading RPA platforms to automate repetitive tasks, reduce operational costs, and
-                    improve efficiency,
-                    enabling businesses to focus on high-value activities and innovation.</td>
-                </tr>
-
-                <tr>
-                  <th class="table-active">MS Dynamics 365</th>
-                  <td>Our MS Dynamics 365 services enable seamless ERP and CRM integration, optimizing business
-                    processes, improving customer
-                    engagement, and enhancing decision-making with real-time data insights.</td>
-                </tr>
-                <tr>
-                  <th class="table-active">
-                    MDM / PIM Solutions
-                  </th>
-                  <td>Our Master Data Management (MDM) and Product Information Management (PIM) services ensure data
-                    consistency, accuracy,
-                    and governance, providing a unified view of critical business information.</td>
-                </tr>
-                <tr>
-                  <th class="table-active">
-                    Data Governance (Informatica, IICS)
-                  </th>
-                  <td>We help organizations implement robust Data Governance frameworks using Informatica and IICS,
-                    ensuring data quality,
-                    compliance, security, and streamlined data management for better business outcomes.</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Service Details Section -->
-
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section bg-white">
-      <div class="container">
-        <div class="row gy-5">
-          <div class="col-12" data-aos="fade-up" data-aos-delay="100">
-            <div class="help-box d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-headset help-icon"></i>
-              <h4>Have a Question?</h4>
-              <p class="d-flex align-items-center mt-2 mb-0">
-                <i class="bi bi-telephone me-2"></i>
-                <span>+1 5589 55488 55</span>
-              </p>
-              <p class="d-flex align-items-center mt-1 mb-0">
-                <i class="bi bi-envelope me-2"></i>
-                <a href="mailto:contact@example.com">contact@example.com</a>
-              </p>
-              <a href="index.html#contact">Send Message</a>
-            </div>
-            <div class="service-box d-none">
-              <h4>Serices List</h4>
-              <div class="services-list">
-                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Product Management</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
               </div>
-            </div>
-            <!-- End Services List -->
-
-            <div class="service-box d-none">
-              <h4>Download Catalog</h4>
-              <div class="download-catalog">
-                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
-                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your subscription request has been sent. Thank you!
               </div>
-            </div>
-            <!-- End Services List -->
+            </form>
           </div>
         </div>
       </div>
-    </section>
-  </main>
 
-  <footer id="footer" class="footer dark-background d-none">
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Multi</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3">
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
-            </p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>
-            Subscribe to our newsletter and receive the latest news about our
-            products and services!
-          </p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form">
-              <input type="email" name="email" /><input type="submit" value="Subscribe" />
-            </div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">
-              Your subscription request has been sent. Thank you!
-            </div>
-          </form>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span> <strong class="px-1 sitename">Multi</strong>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>
-        © <span>Copyright</span> <strong class="px-1 sitename">Multi</strong>
-        <span>All Rights Reserved</span>
-      </p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
